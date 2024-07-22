@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#to-do-body {
+  width: 90%;
+  height: 91vh;
+  margin: 10px auto;
+  background-color: royalblue;
+  padding: 1px;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-align: center;
+  box-shadow: 1px 2px 1px orange;
+}
+
+.to-do-title {
+  background-color: white;
+  margin: 0;
+  color: royalblue;
+  padding: 10px;
+}
+#to-do-user-interface {
+  padding: 10px;
+  margin: 1px auto;
+  background-color: orange;
+}
+.btn {
+  padding: 10px 15px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+input {
+  height: 35px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  font-family: Georgia;
+}
+#display {
+  height: 62vh;
+  width: 90%;
+  border: 1px solid orange;
+  margin: 2px auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  overflow-y: scroll;
+  color: #444;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.list-item {
+  font-size: 1.25rem;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid royalblue;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2px;
+  align-items: center;
+}
+
+span {
+  color: red;
+  text-align: center;
+  display: block;
+}
+.btn-danger {
+  background-color: red;
+}
